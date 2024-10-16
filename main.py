@@ -12,4 +12,4 @@ bot = commands.Bot(
 async def on_ready(): # we use an asynchronous "on_ready" function, it is executed when the bot is ready
    print("bot is ready") # sending a log, you can do anything else here, but if you want to do something related to the Discord API, use "await" before the command
 
-@bot.run("token") # replace the "token" with your token from the "Bot" tab in the Discord Developers Portal, and give it here (as a string), remember not to share it with ANYONE
+bot.run("token") # replace the "token" with your token from the "Bot" tab in the Discord Developers Portal, and give it here (as a string), remember not to share it with ANYONE
